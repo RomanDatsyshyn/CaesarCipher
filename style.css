@@ -1,0 +1,48 @@
+#in {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 10px;
+}
+
+#histogram {
+  width: 100%;
+  height: 350px;
+}
+#histogram2 {
+  width: 100%;
+  height: 350px;
+}
+#histogram3 {
+  width: 100%;
+  height: 350px;
+}
+#histogram4 {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 10px;
+}
+zing-grid[loading] {
+  height: 450px;
+}
+
+label,
+textarea {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+textarea {
+  padding: 10px;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+div[id$="-license-text"] {
+  display: none !important;
+}
