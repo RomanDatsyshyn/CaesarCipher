@@ -3,6 +3,7 @@
 
 document.getElementById("in").oninput = function() {
   let text = this.value;
+  text = text.toUpperCase();
 
   let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -120,8 +121,8 @@ document.getElementById("in").oninput = function() {
   }
 
   // Filling array 2 chars form text
-  for (let i = 0; i < text.length; i++) {
-    let textSymbol = text[i] + text[i + 1];
+  for (let i = 0; i < dText.length; i++) {
+    let textSymbol = dText[i] + dText[i + 1];
     textArray.push({ Symbol: textSymbol });
   }
 
@@ -154,8 +155,8 @@ document.getElementById("in").oninput = function() {
   }
 
   // Filling array 3 chars form text
-  for (let i = 0; i < text.length; i++) {
-    let textSymbol = text[i] + text[i + 1] + text[i + 2];
+  for (let i = 0; i < dText.length; i++) {
+    let textSymbol = dText[i] + dText[i + 1] + dText[i + 2];
     textArrayForTrigram.push({ Symbol: textSymbol });
   }
 
@@ -184,8 +185,8 @@ document.getElementById("in").oninput = function() {
   }
 
   // Filling array 2 chars form text
-  for (let i = 0; i < text.length; i++) {
-    let textSymbol = text[i] + text[i + 1];
+  for (let i = 0; i < dText.length; i++) {
+    let textSymbol = dText[i] + dText[i + 1];
     textArrayForTwoRepeat.push({ Symbol: textSymbol });
   }
 
@@ -219,8 +220,8 @@ document.getElementById("in").oninput = function() {
   }
 
   // Filling array 3 chars form text
-  for (let i = 0; i < text.length; i++) {
-    let textSymbol = text[i] + text[i + 1] + text[i + 2];
+  for (let i = 0; i < dText.length; i++) {
+    let textSymbol = dText[i] + dText[i + 1] + dText[i + 2];
     textArrayForThreeRepeat.push({ Symbol: textSymbol });
   }
 
@@ -254,8 +255,8 @@ document.getElementById("in").oninput = function() {
   }
 
   // Filling array 4 chars form text
-  for (let i = 0; i < text.length; i++) {
-    let textSymbol = text[i] + text[i + 1] + text[i + 2] + text[i + 3];
+  for (let i = 0; i < dText.length; i++) {
+    let textSymbol = dText[i] + dText[i + 1] + dText[i + 2] + dText[i + 3];
     textArrayForFourRepeat.push({ Symbol: textSymbol });
   }
 
